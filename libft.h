@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: eisikogl <42istanbul.com.tr>               +#+  +:+       +#+        */
+/*   By: eisikogl <eisikogl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/03 15:42:27 by eisikogl          #+#    #+#             */
-/*   Updated: 2022/02/25 15:52:03 by eisikogl         ###   ########.tr       */
+/*   Updated: 2022/08/19 04:19:20 by eisikogl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,12 @@
 
 # include <unistd.h>
 # include <stdlib.h>
+
+// typedef struct s_list
+// {
+// 	void	*content;
+// 	struct	s_list *next;
+// } t_list;
 
 int		ft_isalpha(int c);
 int		ft_isdigit(int c);
